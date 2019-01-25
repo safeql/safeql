@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"diagnostics": false,
+		"declaration": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"noErrorTruncation": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitReturns": true,
+		// "noUnusedLocals": true,
+		// "noUnusedParameters": true,
+		"outDir": "./dist/",
+		"preserveWatchOutput": true,
+		"resolveJsonModule": true,
+		"sourceMap": true,
+		"strict": true,
+		"target": "esnext",
+		"lib": ["es5", "es6", "dom", "es2017"],
+		"paths": {
+			"*": [
+				"node_modules/*",
+				"src/_vendor/*"
+			]
+		}
+	},
+	"include": [
+		"src/**/*"
+	]
+}

@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "@types/pg": "^7.4.11",
+    "typescript": "^3.3.0-dev.20190119"
+  }
+}
